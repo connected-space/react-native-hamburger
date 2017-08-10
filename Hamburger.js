@@ -276,6 +276,7 @@ export default class Hamburger extends Component {
                     ]
                     }}>
                     <Animated.View style={{
+                        borderRadius: 1.5,
                         height: 3,
                         marginLeft: this.marginLeft,
                         width: this.width,
@@ -291,12 +292,14 @@ export default class Hamburger extends Component {
                         ]
                     }} />
                     <Animated.View style={{
+                        borderRadius: 1.5,
                         height: 3,
                         width: 25,
                         opacity:this.middleBarOpacity,
                         backgroundColor: color ? color : 'black',
                         marginTop: 4}} />
                     <Animated.View style={{
+                        borderRadius: 1.5,
                         height: 3,
                         marginLeft: this.marginLeft,
                         width: this.width,
